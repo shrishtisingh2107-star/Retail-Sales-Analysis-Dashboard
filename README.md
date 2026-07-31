@@ -1,99 +1,121 @@
-# 📊 Retail Sales Analysis Dashboard (Excel)
+#  Retail Sales Analysis Dashboard (Excel)
 
-## 📌 Project Overview
+##  Project Overview
 
-This project focuses on analyzing retail sales data and creating an interactive Excel dashboard to understand sales performance, profit trends, customer behavior, and business insights.
+This project is an **Excel-based Retail Sales Analysis Dashboard** created to analyze retail business performance using multiple datasets.
 
-The dashboard was created using Microsoft Excel with data cleaning, Pivot Tables, Pivot Charts, and visualization techniques.
-
----
-
-## 📷 Dashboard Preview
-
-![Retail Sales Dashboard](Dashboard_Top.png)
+The project involved data cleaning, data transformation, merging multiple tables, creating Pivot Tables, Pivot Charts, and designing an interactive dashboard to generate meaningful business insights.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Dashboard Preview
+
+###  Dashboard Top View
+
+<img src="dashboard-top.png" width="900">
+
+###  Dashboard Bottom View
+
+<img src="dashboard-bottom.png" width="900">
+
+---
+
+##  Dataset Structure
+
+This project contains four different Excel sheets:
+
+### 1. Sales_Data Sheet
+- Contains sales transaction records
+- Includes order and sales-related information
+- Used as the primary transaction table for analysis
+
+### 2. Returns Sheet
+- Contains returned order details
+- Helps analyze returned products and return patterns
+
+### 3. Product Sheet
+- Contains product master information
+- Includes product details and category information
+
+### 4. Customer Sheet
+- Contains customer-related information
+- Helps analyze customer behavior and purchasing patterns
+
+---
+
+##  Data Cleaning & Transformation
+
+Data preparation steps performed:
+
+- Removed duplicate records
+- Handled missing values
+- Cleaned inconsistent data
+- Standardized data formats
+- Corrected data types
+- Merged multiple sheets into a final analysis dataset
+
+---
+
+##  Tools & Techniques Used
 
 - Microsoft Excel
+- Power Query
+- Data Cleaning
+- Data Transformation
 - Pivot Tables
 - Pivot Charts
-- Data Cleaning
-- Data Visualization
-- Conditional Formatting
-- VLOOKUP & Excel Formulas
+- Excel Formulas
 - Dashboard Designing
+- Data Visualization
 
 ---
 
-## 📂 Dataset Information
+##  Dashboard Features
 
-The dataset contains retail transaction details including:
-
-- Order ID
-- Order Date
-- Customer Name
-- Product
-- Category
-- Region
-- State
-- Salesperson
-- Quantity
-- Unit Price
-- Discount %
-- Sales
-- Cost
-- Profit
-- Payment Mode
-- Status
-
----
-
-## 📊 Dashboard Features
-
-The dashboard provides insights through:
-
-### KPI Cards:
+### KPI Metrics:
 - Total Sales
 - Total Profit
 - Total Orders
 - Total Quantity Sold
-- Average Order Value
-- Average Profit %
+- Average Sales
+- Return Analysis
 
-### Visualizations:
-- Sales Analysis by Category
-- Profit Analysis
-- Regional Sales Performance
-- Monthly Sales Trend
-- Quantity Analysis
-- Customer & Product Insights
-
----
-
-## 🔍 Key Business Insights
-
-- Identified top-performing categories based on sales.
-- Analyzed profit contribution across different segments.
-- Compared sales performance over time.
-- Helped understand customer purchasing patterns.
-- Provided data-driven insights for better business decisions.
+### Charts & Analysis:
+- Sales Performance Analysis
+- Category-wise Sales Analysis
+- Product Performance Analysis
+- Customer Analysis
+- Return Analysis
+- Sales Trends
 
 ---
 
-## 📁 Project Files
+##  Business Insights
 
-📌 Excel Dashboard File:  
-`Excel_Retail_Sales_Analysis_Dashboard.xlsx`
-
-📌 Dashboard Screenshot:  
-`Dashboard_Top.png`
+- Analyzed overall sales performance.
+- Identified high-performing products and categories.
+- Studied customer purchasing patterns.
+- Evaluated product return behavior.
+- Created an interactive dashboard for better business decision-making.
 
 ---
 
-## 👩‍💻 Created By
+##  Project Files
+
+ Excel Dashboard File:
+`Retail_Sales_Analysis_Dashboard.xlsx`
+
+ Dashboard Images:
+- `dashboard-top.png`
+- `dashboard-bottom.png`
+
+---
+
+##  Author
 
 **Shrishti Singh**
 
-Aspiring Data Analyst | Excel | Power BI | Data Visualization
+Aspiring Data Analyst
+
+Skills:
+Excel | Power Query | Power BI | Data Analysis | Dashboard Development
